@@ -16,9 +16,9 @@ contract ERC20 is IERC20 {
 
   mapping (address => mapping (address => uint256)) private _allowed;
 
-  uint256 private _totalSupply;
   string private _name;
   string private _symbol;
+  uint256 private _totalSupply;
 
   function name() public view returns (string) {
       return _name;
