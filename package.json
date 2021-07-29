@@ -1,0 +1,14 @@
+{
+  "name": "honestcoin",
+  "version": "1.0.0",
+  "description": "honest coin of ruiqingluo",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ruiqingluo",
+  "license": "ISC"
+}
