@@ -17,7 +17,7 @@ contract HonestCoin is IERC20 {
   string private symbol;
   uint256 private totalSupply;
 
-  constructor(uint256 _totalSupply, string memory _name, string memory _symbol) {
+  constructor(uint256 _totalSupply, string memory _name, string memory _symbol) public {
       balances[msg.sender] = _totalSupply;
       name = _name;
       symbol = _symbol;
