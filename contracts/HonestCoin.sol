@@ -21,6 +21,7 @@ contract HonestCoin is IERC20 {
       balances[msg.sender] = _totalSupply;
       name = _name;
       symbol = _symbol;
+      totalSupply = _totalSupply;
   }
 
   function getName() public view returns (string) {
